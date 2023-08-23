@@ -4,7 +4,8 @@ using namespace std;
 int main(){
     int arr[] = {7, 10, 4, 3, 20, 15};
     int n = end(arr) - begin(arr);
+    int k = 1;
     sort(arr,arr+n);
-    cout<<arr[0];
+    cout<<arr[0-k];
     return 0;
 }
